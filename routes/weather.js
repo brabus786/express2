@@ -16,7 +16,7 @@ router.get('/', async (req, res, next) => {
       searchParams: {
         lat,
         lon,
-        appid: process.env.API_KEY,
+        appid: process.env.API_KEY ,
       }
     })
     console.log(response);
