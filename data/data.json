@@ -1,0 +1,16 @@
+{
+    "articles":[
+        {
+            "title":"title1",
+            "author":"author1",
+            "date":"date1",
+            "body":"body1"
+        },
+        {
+            "title":"title2",
+            "author":"author2",
+            "date":"date2",
+            "body":"body2"
+        }
+    ]
+}

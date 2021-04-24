@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><%= title %></title>
+</head>
+<body>
+    
+    <a href="/">Home</a>
+    <a href="/contact">Contact</a>
+    <a href="/blog">Blog</a>
+    <%= articles.map(title) %>
+
+</body>
+</html>
+ 
+<% function title(articles) { %> 
+    <h1><%= articles.title %></h1>
+    <h1><%= articles.author %></h1>
+<% } %>
+
